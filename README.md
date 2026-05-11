@@ -1,10 +1,6 @@
 # Cloudflare-Nginx-Config-Update
-
-==============
-
 Small script to automatically update Cloudflare's public IPs in your nginx configuration.
 You can schedule it with cron.
-
 Current version is in beta stage!
 
 Roughly it generates a similar output like this:
@@ -15,8 +11,7 @@ You have to enable this nginx module as well:
 http://nginx.org/en/docs/http/ngx_http_realip_module.html
 
 ### Synopsis
-    
-    cloudflare-nginx-config-update.sh    [OPTIONS] [target]
+     cloudflare-nginx-config-update.sh    [OPTIONS] [target]
 
 ### Options, Arguments
 
